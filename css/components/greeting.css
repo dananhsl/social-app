@@ -17,8 +17,26 @@ h1 {
 
 .btn.btn__messages {
   border-radius: none;
-  border: 2px solid var(--lightgray);
+  border: none;
+  background-color: transparent;
+  color: inherit;
+
+  background: none;
+
+  border: none;
+  padding: 0.2em;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.btn.btn__messages svg {
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
+  border: 1px solid var(--lightgray);
+  padding: 0.2em;
+}
+
+.btn.btn__messages.path {
+  stroke: white;
+  stroke-width: 2px;
 }
