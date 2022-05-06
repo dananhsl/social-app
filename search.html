@@ -4,14 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>Search</title>
   </head>
   <body>
     <header>
-      <h1>Good Morning, John.</h1>
+      <form method="GET">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search for People, Posts, Tags..."
+        />
+      </form>
       <button class="btn btn__messages"><svg></svg></button>
     </header>
     <main>
+      <section>
+        <h1 class="tags__title">Popular</h1>
+        <button class="btn btn__tags">Tag1</button>
+        <button class="btn btn__tags">Tag2</button>
+        <button class="btn btn__tags">Tag3</button>
+        <button class="btn btn__tags">Tag4</button>
+        <button class="btn btn__tags">Tag5</button>
+        <button class="btn btn__tags">Tag6</button>
+        <button class="btn btn__tags">Tag7</button>
+        <button class="btn btn__tags">Tag8</button>
+      </section>
       <section class="stories">
         <article class="stories__container">
           <img class="img img__stories" src="" alt="story-preview" />
@@ -26,8 +44,8 @@
           <button class="btn btn__post"></button>
           <section class="feed__content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              deserunt animi quia, doloremque amet nobis ex et?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt animi quia,
+              doloremque amet nobis ex et?
             </p>
             <img src="" alt="" />
           </section>

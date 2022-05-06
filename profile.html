@@ -4,20 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>Profile</title>
   </head>
   <body>
     <header>
-      <h1>Good Morning, John.</h1>
+      <img src="" alt="profile__background" />
       <button class="btn btn__messages"><svg></svg></button>
+      <button class="btn btn__bookmark"></button>
     </header>
     <main>
-      <section class="stories">
-        <article class="stories__container">
-          <img class="img img__stories" src="" alt="story-preview" />
-          <img class="img img__profile" src="" alt="profile-picture" />
-        </article>
+      <section class="profile__bio">
+        <img src="" alt="profile__picture" class="img img__profile" />
+        <h1 class="profile__name">John Doe</h1>
+        <p class="profile__location">Brooklyn, Ny</p>
+        <p class="profile__bio">Lorem ipsum dolor sit amet.</p>
       </section>
+      <section class="profile__stats">
+        <p>2,467 Followers</p>
+        <p>1,589 Followers</p>
+        <button class="btn btn__edit">Edit Profile</button>
+      </section>
+      <nav class="profile__nav">
+        <a href="#posts">Posts</a>
+        <a href="#stories">Stories</a>
+        <a href="#liked">Liked</a>
+        <a href="#tagged">Tagged</a>
+      </nav>
       <section class="feed">
         <article class="feed__post">
           <img class="img img__profile" src="" alt="profile-picture" />
@@ -26,8 +38,8 @@
           <button class="btn btn__post"></button>
           <section class="feed__content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              deserunt animi quia, doloremque amet nobis ex et?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt animi quia,
+              doloremque amet nobis ex et?
             </p>
             <img src="" alt="" />
           </section>
@@ -43,14 +55,5 @@
         </article>
       </section>
     </main>
-    <footer>
-      <nav class="menu">
-        <a href="#index"><svg></svg></a>
-        <a href="#search"><svg></svg></a>
-        <a href="#create"><svg></svg></a>
-        <a href="#alerts"><svg></svg></a>
-        <a href="#profile"><svg></svg></a>
-      </nav>
-    </footer>
   </body>
 </html>
