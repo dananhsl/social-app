@@ -1,5 +1,6 @@
 body {
   background-color: var(--gray);
+  font-family: Poppins, sans-serif;
 }
 
 header {
@@ -11,8 +12,9 @@ header {
 
 h1 {
   font-size: 1.125rem;
-  font-weight: bold;
-  color: white;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.5;
 }
 
 .btn.btn__messages {
