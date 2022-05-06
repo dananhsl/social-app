@@ -2,7 +2,7 @@
 @import url(components/alerts.css);
 @import url(components/buttons.css);
 @import url(components/footer.css);
-@import url(components/greeting.css);
+@import url(/css/components/greeting.css);
 @import url(components/header.css);
 @import url(components/image-reel.css);
 @import url(components/post.css);

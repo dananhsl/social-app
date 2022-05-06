@@ -1,3 +1,7 @@
+body {
+  background-color: var(--gray);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -7,13 +11,14 @@ header {
 
 h1 {
   font-size: 1.125rem;
+  font-weight: bold;
+  color: white;
 }
 
 .btn.btn__messages {
   border-radius: none;
-  border: none;
-  background-color: white;
-}
-
-svg {
+  border: 2px solid var(--lightgray);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
 }
