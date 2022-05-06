@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.125rem;
+}
+
+.btn.btn__messages {
+  border-radius: none;
+  border: none;
+  background-color: white;
+}
+
+svg {
+}
