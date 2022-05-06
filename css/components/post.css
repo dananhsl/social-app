@@ -5,7 +5,7 @@ body {
 .feed {
   border-top: 1px solid var(--lightgray);
   border-bottom: 1px solid var(--lightgray);
-  padding: 1em 1.4em;
+  padding: 1em 1.5em;
 }
 
 .feed__post {
@@ -15,6 +15,8 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+/* OBEN */
 
 .feed__info {
   line-height: 1em;
@@ -73,8 +75,9 @@ body {
 .feed__reactions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-around;
 }
 
 .feed__reactions__counter {
@@ -89,7 +92,7 @@ body {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--lightwhite);
-  padding: 0 1em 0 0.4em;
+  padding: 0 1.25em 0 0.5em;
 }
 
 .feed__reactions button {
@@ -106,6 +109,11 @@ body {
   stroke-width: 1.4px;
 }
 
+.bookmark {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .btn.btn__bookmark {
-  padding-left: 1em;
+  margin-left: auto;
 }
