@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   background-color: var(--black);
   color: var(--white);
+  padding: 1.5em 1.5em;
 }
 
 header h1 {
