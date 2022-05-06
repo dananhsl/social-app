@@ -16,15 +16,19 @@ body {
   justify-content: space-between;
 }
 
+.feed__info {
+  line-height: 1em;
+}
+
 .feed__info h2 {
   font-size: 0.875rem;
-  font-weight: bold;
-  color: white;
+  font-weight: 700;
+  color: var(--lightwhite);
 }
 
 .feed__info p {
-  font-size: 0.875rem;
-  font-weight: 300;
+  font-size: 0.75rem;
+  font-weight: 500;
   color: var(--lightgray);
 }
 
@@ -54,26 +58,37 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1em 0.2em 1em 0;
+  padding: 1em 1.4em 1em 0;
 }
 
 .feed__content p {
   font-size: 1rem;
-  color: var(--white);
+  font-weight: 400;
+  color: var(--lightwhite);
+  line-height: 1.5em;
 }
 
 /* ENDE */
 
 .feed__reactions {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.feed__reactions__counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .feed__reactions p {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--lightwhite);
   padding: 0 1em 0 0.4em;
 }
 
@@ -82,126 +97,15 @@ body {
   border: none;
   background-color: transparent;
   color: inherit;
-
   background: none;
-
   border: none;
-  padding: 0.2em;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
 }
 
 .btn.btn__reactions.path {
   stroke: var(--white);
-  stroke-width: 2px;
+  stroke-width: 1.4px;
 }
 
 .btn.btn__bookmark {
-  margin-left: auto;
+  padding-left: 1em;
 }
-
-/*
-
-.feed {
-    border-top: 1px solid var(--lightgray);
-    border-bottom: 1px solid var(--lightgray);
-    padding: 1em;
-    display: flex;
-  }
-
-.feed__post {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 25% 50% 25%;
-  grid-gap: 0.4em;
-}
-
-.img.img__profile {
-  grid-column: 1 / 1;
-  grid-row: 1;
-}
-
-.feed__name {
-  grid-column: 2 / span 3;
-  grid-row: 1;
-}
-
-.time {
-  grid-column: 2 / span 3;
-  grid-row: 1;
-  align-self: end;
-  padding-top: 1.6em;
-}
-
-
-.btn.btn__post {
-  grid-column: 4 / 4;
-  grid-row: 1;
-  background-color: transparent;
-  border: none;
-}
-
-.btn.btn__post svg {
-  width: 50%;
-  height: 50%;
-}
-
-.feed__content {
-  grid-column: 1 / span 4;
-  grid-row: 2;
-}
-
-.feed__reactions {
-  grid-column: span 4;
-  grid-row: 3;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    display: flex;
-
-
-}
-
-.btn.btn__bookmark  {
-
-    padding: 0 4em 0 0;
-    background-color: transparent;
-    border: none;
-    grid-column-start: 2;
-    grid-template-columns: 2;
-
-}
-
-
----
-
-
-.btn.btn__messages {
-  border-radius: none;
-  border: none;
-  background-color: transparent;
-  color: inherit;
-
-  background: none;
-
-  border: none;
-  padding: 0.2em;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-
-.btn.btn__messages svg {
-  border-radius: 50%;
-  border: 1px solid var(--lightgray);
-  padding: 0.2em;
-}
-
-.btn.btn__messages.path {
-  stroke: white;
-  stroke-width: 2px;
-}
-
-
-*/
