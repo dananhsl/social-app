@@ -30,6 +30,7 @@ h1 {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+  position: relative;
 }
 
 .btn.btn__messages svg {
@@ -41,4 +42,10 @@ h1 {
 .btn.btn__messages.path {
   stroke: white;
   stroke-width: 2px;
+}
+
+.btn.btn__notification {
+  position: absolute;
+  right: 1.4em;
+  top: 1.4em;
 }
