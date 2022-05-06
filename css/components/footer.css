@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background: var(--black);
+  min-height: 90px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu > a {
+  display: flex;
+  margin: 0 30px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#create {
+  background: var(--gradient);
+  border-radius: 50%;
+}
+
+.svg__path {
+  stroke: var(--lightgray);
+}
+
+.svg__path__search {
+  fill: var(--lightgray);
+}
