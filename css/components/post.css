@@ -36,11 +36,23 @@ body {
   object-position: center center;
   border-radius: 50%;
   background: var(--gray);
-  display: grid;
+
   width: 40px;
   aspect-ratio: 1;
   padding: 1%;
   /* Place it inside grid, otherwise you have to reduce padding */
+}
+
+.feed__content__img {
+  width: 327px;
+  height: 180px;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 25px;
+  background: var(--gray);
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 .feed__info p {
