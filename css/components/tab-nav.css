@@ -1,0 +1,30 @@
+.default {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.tag__nav {
+  color: var(--white);
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  margin: 10px 20px;
+}
+.tags__title {
+  padding-left: 20px;
+}
+
+.tag {
+  border: 1px solid var(--white);
+  border-radius: 16px;
+  padding: 2px 6px;
+  background: transparent;
+  text-decoration: none;
+  color: var(--white);
+  margin: 2px;
+}
+
+.tag__active {
+  border: 1px solid var(--socialblue);
+  background: var(--socialblue);
+}
