@@ -63,7 +63,7 @@
 .img--S {
   width: 40px;
   aspect-ratio: 1;
-  padding: 9%;
+  padding: 10%;
   /* Place it inside grid, otherwise you have to reduce padding */
 }
 

@@ -4,8 +4,12 @@ body {
 
 .feed {
   border-top: 1px solid var(--lightgray);
-  border-bottom: 1px solid var(--lightgray);
+
   padding: 1em 1.5em;
+}
+
+.feed:nth-child(3) {
+  border-bottom: 1px solid var(--lightgray);
 }
 
 .feed__post {
@@ -18,12 +22,25 @@ body {
 
 .feed__info {
   line-height: 1em;
+  padding-left: 0.4em;
 }
 
 .feed__info h2 {
   font-size: 0.875rem;
   font-weight: 700;
   color: var(--lightwhite);
+}
+
+.img.img__profile {
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+  background: var(--gray);
+  display: grid;
+  width: 40px;
+  aspect-ratio: 1;
+  padding: 1%;
+  /* Place it inside grid, otherwise you have to reduce padding */
 }
 
 .feed__info p {
