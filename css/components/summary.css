@@ -1,5 +1,5 @@
 .alerts {
-  background-color: var(--black);
+  background-color: var(--darkblack);
   font-family: "Poppins", sans-serif;
 }
 
@@ -8,4 +8,13 @@
   padding-left: 1.5em;
   font-weight: 300;
   letter-spacing: 0.1em;
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+}
+
+.alerts__today {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  height: 4.625em;
 }
