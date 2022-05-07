@@ -1,0 +1,42 @@
+body {
+  background-color: var(--gray);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+.btn.btn__messages {
+  border-radius: none;
+  border: none;
+  background-color: transparent;
+  padding: 0.2em;
+  position: relative;
+}
+
+.btn.btn__messages svg {
+  border-radius: 50%;
+  border: 1px solid var(--lightgray);
+  padding: 0.2em;
+}
+
+.btn.btn__messages.path {
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.btn.btn__notification {
+  position: absolute;
+  right: 1.4em;
+  top: 1.4em;
+}
