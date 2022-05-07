@@ -5,7 +5,7 @@
 
 .alerts h2 {
   color: var(--lightgray);
-  padding-left: 1.5em;
+  margin-left: 1.5em;
   font-weight: 300;
   letter-spacing: 0.1em;
   font-size: 1rem;
@@ -19,12 +19,29 @@
   font-size: 0.8rem;
   font-weight: lighter;
   height: 5.78em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
   border-bottom: 0.25px solid var(--lightgray);
 }
 
-div p:nth-child(2) {
+.alerts__today div p:nth-child(2) {
   font-size: 0.75rem;
   margin-top: 0.5em;
   color: var(--lightgray);
+}
+
+.icon {
+  background: var(--gray);
+  margin: 0 1.25em 0 1.5em;
+  height: 3.5em;
+  width: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid var(--darkblack) 0px;
+  border-radius: 50%;
+}
+
+.icon--blue {
+  stroke: var(--socialblue);
 }
