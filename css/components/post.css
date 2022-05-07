@@ -1,0 +1,101 @@
+body {
+  background-color: var(--gray);
+}
+
+.feed {
+  border-top: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+  padding: 1em 1.5em;
+}
+
+.feed__post {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feed__info {
+  line-height: 1em;
+}
+
+.feed__info h2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--lightwhite);
+}
+
+.feed__info p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--lightgray);
+}
+
+.feed__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn.btn__post {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.btn.btn__post.path {
+  stroke: var(--lightgray);
+  stroke-width: 2px;
+}
+
+.feed__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 1.4em 1em 0;
+}
+
+.feed__interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feed__content p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--lightwhite);
+  line-height: 1.5em;
+}
+
+.feed__reactions {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.feed__reactions p {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--lightwhite);
+  padding: 0 1.25em 0 0.5em;
+}
+
+.feed__reactions button {
+  border-radius: none;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+.btn.btn__reactions.path {
+  stroke: var(--white);
+  stroke-width: 1.4px;
+}
