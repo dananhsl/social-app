@@ -5,34 +5,38 @@
 
 .alerts h2 {
   color: var(--lightgray);
-  margin-left: 1.5em;
+  margin: 0 0 2em 0;
+  padding: 1em 0 0 2em;
   font-weight: 300;
   letter-spacing: 0.1em;
   font-size: 1rem;
-  margin-bottom: 1em;
 }
 
-.alerts__today {
+.alert {
   display: flex;
   align-items: center;
   color: var(--white);
   font-size: 0.8rem;
   font-weight: lighter;
   height: 5.78em;
-  margin-bottom: 1.5em;
-  padding-bottom: 1.5em;
+  margin-top: 2.5em;
+  padding: 0 0 1.5em 2em;
   border-bottom: 0.25px solid var(--lightgray);
 }
 
-.alerts__today div p:nth-child(2) {
+.alert div p:nth-child(2) {
   font-size: 0.75rem;
   margin-top: 0.5em;
   color: var(--lightgray);
 }
 
+.alert--past {
+  color: var(--lightgray);
+}
+
 .icon {
   background: var(--gray);
-  margin: 0 1.25em 0 1.5em;
+  margin: 0 1.25em 0 0;
   height: 3.5em;
   width: 3.5em;
   display: flex;
@@ -44,4 +48,13 @@
 
 .icon--blue {
   stroke: var(--socialblue);
+  color: var(--socialblue);
+}
+
+.icon--pink {
+  stroke: var(--socialpink);
+}
+
+.icon--white {
+  color: var(--lightgray);
 }
