@@ -1,0 +1,33 @@
+.search__input {
+  align-self: center;
+  width: 300px;
+  height: 40px;
+  margin: 20px auto;
+  border-width: 0;
+  border-radius: 20px;
+  background-color: var(--gray);
+  padding: 1em;
+  color: var(--white);
+  flex-grow: 4;
+}
+
+.search__input:focus {
+  outline: 0;
+}
+
+.search__input::placeholder {
+  color: var(--lightgray);
+}
+
+.search__form {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.search__container {
+  position: absolute;
+  display: inline-flex;
+  align-self: center;
+  margin-right: -300px;
+}
