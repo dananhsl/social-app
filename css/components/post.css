@@ -16,8 +16,6 @@ body {
   justify-content: space-between;
 }
 
-/* OBEN */
-
 .feed__info {
   line-height: 1em;
 }
@@ -34,13 +32,10 @@ body {
   color: var(--lightgray);
 }
 
-/*
 .feed__info {
   display: flex;
   flex-direction: column;
 }
-
-*/
 
 .btn.btn__post {
   margin-left: auto;
@@ -53,14 +48,19 @@ body {
   stroke-width: 2px;
 }
 
-/* MITTELTEIL */
-
 .feed__content {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 1em 1.4em 1em 0;
+}
+
+.feed__interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .feed__content p {
@@ -70,22 +70,13 @@ body {
   line-height: 1.5em;
 }
 
-/* ENDE */
-
 .feed__reactions {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
-  justify-content: space-around;
-}
-
-.feed__reactions__counter {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
+  justify-content: space-between;
+  position: relative;
 }
 
 .feed__reactions p {
@@ -107,13 +98,4 @@ body {
 .btn.btn__reactions.path {
   stroke: var(--white);
   stroke-width: 1.4px;
-}
-
-.bookmark {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.btn.btn__bookmark {
-  margin-left: auto;
 }
