@@ -4,7 +4,7 @@ html {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--black);
+  background-color: var(--darkblack);
   color: var(--white);
   padding: 1.5em 1.5em;
 }
@@ -15,8 +15,8 @@ header h1 {
 }
 
 .btn__read {
-  background-color: var(--black);
+  background-color: var(--darkblack);
   color: var(--socialpink);
   font-weight: bold;
-  border: solid 0px var(--black);
+  border: solid 0px var(--darkblack);
 }
