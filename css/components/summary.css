@@ -8,7 +8,7 @@
   padding-left: 1.5em;
   font-weight: 300;
   letter-spacing: 0.1em;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1em;
 }
 
@@ -17,11 +17,14 @@
   align-items: center;
   color: var(--white);
   font-size: 0.8rem;
+  font-weight: lighter;
   height: 5.78em;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.25px solid var(--lightgray);
 }
 
 div p:nth-child(2) {
   font-size: 0.75rem;
-  margin-top: 1em;
+  margin-top: 0.5em;
   color: var(--lightgray);
 }
