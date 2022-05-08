@@ -13,7 +13,7 @@ body {
 
 /* FEED HEADER */
 
-.feed__reactions {
+.feed__header {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -29,15 +29,6 @@ body {
   align-items: center;
 }
 
-.feed__header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
 .feed__post {
   display: flex;
   flex-direction: row;
@@ -49,6 +40,17 @@ body {
 .feed__info {
   line-height: 1em;
   padding-left: 0.4em;
+}
+
+.img.img__profile {
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+  background: var(--gray);
+  width: 40px;
+  aspect-ratio: 1;
+  padding: 1%;
+  /* Place it inside grid, otherwise you have to reduce padding */
 }
 
 .feed__info h2 {
@@ -63,11 +65,6 @@ body {
   color: var(--lightgray);
 }
 
-.feed__info {
-  display: flex;
-  flex-direction: column;
-}
-
 .btn.btn__post {
   margin-left: auto;
   background-color: transparent;
@@ -77,47 +74,6 @@ body {
 .btn.btn__post.path {
   stroke: var(--lightgray);
   stroke-width: 2px;
-}
-
-/* IMG REEL */
-
-.img.img__profile {
-  object-fit: cover;
-  object-position: center center;
-  border-radius: 50%;
-  background: var(--gray);
-
-  width: 40px;
-  aspect-ratio: 1;
-  padding: 1%;
-  /* Place it inside grid, otherwise you have to reduce padding */
-}
-
-/* FEED CONTENT -- IMG*/
-
-.feed__stories {
-  background: var(--gray);
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-
-  /* scrollbar-width: none; activate for ahndy, since then the scrollbar will disappear */
-}
-
-.feed__stories__container {
-  width: 280px;
-  height: 200px;
-  margin-right: 20px;
-  display: inline-block;
-  padding: 1em 0;
-}
-
-.feed__content__img {
-  width: 100%;
-  height: 100%;
-  margin-right: 20px;
-  display: inline-block;
-  border-radius: 25px;
 }
 
 /* FEED CONTENT -- TEXT*/
@@ -135,6 +91,33 @@ body {
   font-weight: 400;
   color: var(--lightwhite);
   line-height: 1.5em;
+}
+
+/* FEED CONTENT -- IMG*/
+
+.feed__img {
+  background: var(--gray);
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  /* scrollbar-width: none; activate for ahndy, since then the scrollbar will disappear */
+}
+
+.feed__img__container {
+  width: 280px;
+  height: 200px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.feed__img {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 25px;
 }
 
 /* FEED REACTIONS */
