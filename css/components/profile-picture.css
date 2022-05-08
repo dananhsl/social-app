@@ -77,7 +77,15 @@
 
 .img--new {
   background: var(--gradient);
-
   border-radius: 50%;
   padding: 3px;
+}
+
+.img__transp {
+  background: transparent;
+}
+
+.img-new {
+  background: var(--gradient);
+  border-radius: 50%;
 }
