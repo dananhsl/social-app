@@ -1,8 +1,9 @@
 .stories {
-  background: var(--gray);
+  background: var(--darkblack);
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
+  height: 160px;
   /* scrollbar-width: none; activate for ahndy, since then the scrollbar will disappear */
 }
 

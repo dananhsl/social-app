@@ -77,10 +77,10 @@
 
 .img--new {
   background: var(--gradient);
-
   border-radius: 50%;
   padding: 3px;
 }
+
 
 .profileHeader {
   background-image: url("/imgs/profileHeaderBg.jpg");
@@ -119,4 +119,13 @@
 .header__icon {
   vertical-align: -35%;
   color: var(--white);
+
+.img__transp {
+  background: transparent;
+}
+
+.img-new {
+  background: var(--gradient);
+  border-radius: 50%;
+
 }

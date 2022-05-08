@@ -1,11 +1,28 @@
 body {
-  background-color: var(--gray);
+  background-color: var(--darkblack);
 }
 
 .feed {
   border-top: 1px solid var(--lightgray);
-  border-bottom: 1px solid var(--lightgray);
   padding: 1em 1.5em;
+}
+
+/* FEED HEADER */
+
+.feed__header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.feed__header__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .feed__post {
@@ -18,6 +35,18 @@ body {
 
 .feed__info {
   line-height: 1em;
+  padding-left: 0.4em;
+}
+
+.img.img__profile {
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+  background: var(--darkblack);
+  width: 40px;
+  aspect-ratio: 1;
+  padding: 1%;
+  /* Place it inside grid, otherwise you have to reduce padding */
 }
 
 .feed__info h2 {
@@ -32,11 +61,6 @@ body {
   color: var(--lightgray);
 }
 
-.feed__info {
-  display: flex;
-  flex-direction: column;
-}
-
 .btn.btn__post {
   margin-left: auto;
   background-color: transparent;
@@ -48,19 +72,14 @@ body {
   stroke-width: 2px;
 }
 
+/* FEED CONTENT -- TEXT*/
+
 .feed__content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 1em 1.4em 1em 0;
-}
-
-.feed__interact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .feed__content p {
@@ -70,6 +89,35 @@ body {
   line-height: 1.5em;
 }
 
+/* FEED CONTENT -- IMG*/
+
+.feed__img {
+  background: var(--darkblack);
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  /* scrollbar-width: none; activate for ahndy, since then the scrollbar will disappear */
+}
+
+.feed__img__container {
+  width: 280px;
+  height: 200px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.feed__img {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+/* FEED REACTIONS */
+
 .feed__reactions {
   display: flex;
   flex-direction: row;
@@ -77,6 +125,13 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
+}
+
+.feed__interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .feed__reactions p {
