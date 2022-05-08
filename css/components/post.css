@@ -7,10 +7,6 @@ body {
   padding: 1em 1.5em;
 }
 
-.feed:nth-child(3) {
-  border-bottom: 1px solid var(--lightgray);
-}
-
 /* FEED HEADER */
 
 .feed__header {
