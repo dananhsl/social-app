@@ -1,5 +1,5 @@
 body {
-  background-color: var(--gray);
+  background-color: var(--darkblack);
 }
 
 .feed {
@@ -46,7 +46,7 @@ body {
   object-fit: cover;
   object-position: center center;
   border-radius: 50%;
-  background: var(--gray);
+  background: var(--darkblack);
   width: 40px;
   aspect-ratio: 1;
   padding: 1%;
@@ -96,7 +96,7 @@ body {
 /* FEED CONTENT -- IMG*/
 
 .feed__img {
-  background: var(--gray);
+  background: var(--darkblack);
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;

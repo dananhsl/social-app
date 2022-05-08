@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em 1.5em 2em 1.5em;
-  background-color: var(--gray);
+  background-color: var(--darkblack);
 }
 
 h1 {
