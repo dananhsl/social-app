@@ -1,30 +1,33 @@
-.default {
-  background-color: var(--gray);
-  color: var(--white);
-}
-
-.tag__nav {
-  color: var(--white);
-  overflow-y: hidden;
-  overflow-x: scroll;
+.profile__nav > a {
+  all: unset;
   display: flex;
-  margin: 10px 20px;
-}
-.tags__title {
-  padding-left: 20px;
-}
-
-.tag {
-  border: 1px solid var(--white);
-  border-radius: 16px;
-  padding: 2px 6px;
-  background: transparent;
-  text-decoration: none;
+  align-items: center;
   color: var(--white);
-  margin: 2px;
+  font-size: 1rem;
+  font-weight: lighter;
+  border-bottom: 0.25px solid #404143;
+  padding: 0.5em;
+  margin-top: 0.8em;
+  cursor: pointer;
 }
 
-.tag__active {
-  border: 1px solid var(--socialblue);
-  background: var(--socialblue);
+.profile__nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#profile__selected {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__underline {
+  display: flex;
+  border: 3px solid var(--socialblue);
+  border-radius: 30px;
+  position: absolute;
+  margin-top: 29px;
+  width: 55px;
 }
