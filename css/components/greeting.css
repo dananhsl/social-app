@@ -1,12 +1,9 @@
-body {
-  background-color: var(--gray);
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1em 1.5em 2em 1.5em;
+  background-color: var(--gray);
 }
 
 h1 {
@@ -37,6 +34,6 @@ h1 {
 
 .btn.btn__notification {
   position: absolute;
-  right: 1.4em;
+  right: 1.85em;
   top: 1.4em;
 }
