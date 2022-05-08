@@ -7,10 +7,6 @@ body {
   padding: 1em 1.5em;
 }
 
-.feed:nth-child(3) {
-  border-bottom: 1px solid var(--lightgray);
-}
-
 /* FEED HEADER */
 
 .feed__header {
@@ -82,7 +78,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 1em 1.4em 1em 0;
 }
 
