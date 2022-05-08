@@ -1,0 +1,51 @@
+.profile__bio {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  color: var(--white);
+  text-align: center;
+}
+
+.profile__name {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.profile__location {
+  display: block;
+  color: var(--lightgray);
+}
+
+.profile__quote {
+  display: block;
+  font-weight: 300;
+}
+
+.profile__stats {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+}
+
+.stats {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  color: var(--white);
+}
+
+.stats__info {
+  font-weight: 400;
+  color: var(--lightgray);
+}
+
+.btn__edit {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  border-radius: 500000px;
+  color: var(--white);
+  padding: 5px 20px;
+  font-size: 1em;
+}
