@@ -94,7 +94,9 @@ body {
   /* Place it inside grid, otherwise you have to reduce padding */
 }
 
-.stories {
+/* FEED CONTENT -- IMG*/
+
+.feed__stories {
   background: var(--gray);
   overflow-x: auto;
   overflow-y: hidden;
@@ -103,7 +105,7 @@ body {
   /* scrollbar-width: none; activate for ahndy, since then the scrollbar will disappear */
 }
 
-.stories__container {
+.feed__stories__container {
   width: 280px;
   height: 200px;
   margin-right: 20px;
@@ -118,6 +120,8 @@ body {
   display: inline-block;
   border-radius: 25px;
 }
+
+/* FEED CONTENT -- TEXT*/
 
 .feed__content {
   display: flex;
